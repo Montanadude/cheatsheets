@@ -20,9 +20,10 @@ echo 'export PATH="/usr/local/mysql/bin:$PATH"' >> ~/.bash_profile
 
 ```bash
 mysql -u root -p
+```
 
+## Docker Container
 
-## In a container
 ```
 Connecting to MariaDB from Outside the Container
 If we try to connect to the MariaDB server on localhost, the client will bypass networking and attempt to connect to the server using a socket file in the local filesystem. However, this doesn't work when MariaDB is running inside a container because the server's filesystem is isolated from the host. The client can't access the socket file which is inside the container, so it fails to connect.
