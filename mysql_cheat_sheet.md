@@ -47,7 +47,7 @@ This simple form of the connection should work in most situations. Depending on 
 ```
 mysql -h 172.17.0.2 -P 3306 --protocol=TCP -u root -p
 ```
-```
+
 ## Show Users
 
 ```sql
