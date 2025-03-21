@@ -195,6 +195,10 @@ By turning on the expanded display mode, the results will be displayed verticall
 ```
 \l
 ```
+### drop database
+```
+DROP DATABASE database_name;
+```
 
 ### switch databases to connect
 
